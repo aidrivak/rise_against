@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact Us - Rise Against</title>
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+
+   <body>
+      <header>
+         <h1>CONTACT US</h1>
+      </header>
+      <nav>
+        <a href="index.html">Home</a> | <a href="faq.html">FAQs</a> | <a href="gallery.html">Gallery</a> | <a href="contact-us.html">Contact Us</a>
+      </nav>
+      <section>
+        <h2>Have questions? Need help with your tickets?</h2>
+        <article>
+            <h3>Please email us for assistance. We're here to help.</h3>
+            <p>If you are interesting to get tickets for the world tour or have any question, please fill up the following form.</p>
+            <fieldset>
+                <legend>Questions Form</legend>
+                <h3>Personal Information</h3>
+                <form id="myMailerForm" method="post" action="mailto:sherd@dcccd.edu">
+                  <p>
+                    <label title="Enter your full name.">Name <input type="text" name="Name" placeholder="Name"></label>
+                  </p>
+                  <p>
+                    <label title="Enter your email address.">E-Mail <input type="text" name="Email" placeholder="Email"></label>
+                  </p>
+                  <p>
+                    <label title="Select your Country.">Country </label>
+                    <select name="countryID">
+                      <option value="">&larr;&nbsp;Select Your Country&nbsp;&rarr;</option>
+                      <option value="1">US</option>
+                      <option value="2">MEXICO</option>
+                      <option value="3">BRASIL</option>
+                      <option value="4">CHILE</option>
+                      <option value="5">ARGENTINA</option>
+                    </select>
+                  </p>
+                  <p>
+                    <label title="Select to be contacted."><input type="checkbox" name="contact-me"> Contact Me For Pre-Order</label>
+                  </p>
+                  <h3>If you have any question, please feel free to send us a message</h3>
+                  <p>
+                    <label title="Select if you have a question about tickets.">Question about tickets <input type="radio" name="request"></label>
+                    <br>
+                    <label title="Select if you have a question about something else.">Other <input type="radio" name="request"></label>
+                  </p>
+                  <p>
+                    <label for="Question">Question:</label><br>
+                    <textarea id="Question" name="Question"></textarea>
+                  </p>
+                  <input type="submit" name="submit" value="Send Mail">&emsp;
+                  <input type="reset" name="reset" value="Reset">
+                </form>
+              </fieldset>      
+        </article>       
+    </section>
+
+      <footer>
+         <p><a href="mailto:aidae.rivasg06@cloud.com"> Contact us</a> |<a href="https://www.dallascollege.edu" target="_blank">Dallas College</a> | Copyright © 2023  </p>
+      </footer>
+   </body>
+
+</html>

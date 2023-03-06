@@ -1,0 +1,36 @@
+body {
+    background-color: lightcoral;
+}  
+header{
+    background-color: rgb(45, 10, 10);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+nav{
+    background-color: rosybrown;
+    font-size: 25px;
+}
+
+h2, h3{
+    background-color: rgb(121, 8, 8);
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+  
+p {
+
+    font-family: verdana;
+    font-size: 15px;
+}
+table, th, td{
+    background-color: ghostwhite;
+    border: 1px solid #413e3e;
+}
+
+footer{
+
+}
